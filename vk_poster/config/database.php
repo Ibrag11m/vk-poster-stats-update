@@ -6,9 +6,9 @@ class Database {
     private $connection;
     
     private $host = 'localhost';
-    private $db_name = 'vk_poster';
-    private $username = 'post';
-    private $password = '.y7oOvb(tWwy/7*8';
+    private $db_name = '';
+    private $username = '';
+    private $password = '';
     private $charset = 'utf8mb4';
     
     private function __construct() {
@@ -39,4 +39,5 @@ class Database {
         return $this->connection;
     }
 }
+
 ?>
